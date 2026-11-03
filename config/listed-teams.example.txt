@@ -1,0 +1,8 @@
+# Listed teams, one per line. Copy this file to config/listed-teams.txt and edit it.
+# Each line must be the team name EXACTLY as Teamarr writes it in a channel's home_team / away_team
+# ("Michigan Wolverines", not "Michigan"). Order = priority when two listed teams play at once.
+# Blank lines and lines starting with # are ignored. Re-read at every docket refresh (10 min).
+# These three are examples, not recommendations.
+Michigan Wolverines
+Georgia Bulldogs
+Boise State Broncos

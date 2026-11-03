@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+*.jsonl
+*.egg-info/
+.pytest_cache/
+
+# Your own team lists stay local; only the examples are tracked.
+config/listed-teams*.txt
+!config/*.example.txt
+.env
+data/
+compose.yaml

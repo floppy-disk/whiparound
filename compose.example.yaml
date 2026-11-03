@@ -1,0 +1,46 @@
+# Copy to compose.yaml, edit, then:  docker compose config  &&  docker compose up -d --build
+# Start with DRY_RUN "1" (decide and log, never touch Dispatcharr); flip it to "0" once the log looks right.
+services:
+  changer-ncaaf:
+    build: .                     # or: image: ghcr.io/<owner>/whiparound:0.1.0 once a release image is published
+    container_name: changer-ncaaf
+    restart: unless-stopped
+    user: "1000:1000"            # ./data/ncaaf must be writable by this uid
+    environment:
+      SPORT: ncaaf
+      DRY_RUN: "1"
+      CHANGER_CHANNEL_ID: ""     # the Dispatcharr channel you created (README, "Create the changer channel")
+      CHANGER_DISPATCHARR_USER: ${CHANGER_DISPATCHARR_USER}
+      CHANGER_DISPATCHARR_PASSWORD: ${CHANGER_DISPATCHARR_PASSWORD}
+      CHANGER_DISCORD_WEBHOOK: ${CHANGER_DISCORD_WEBHOOK:-}
+      DISPATCHARR_URL: http://dispatcharr:9191
+      TEAMARR_URL: http://teamarr:9195
+    volumes:
+      - ./data/ncaaf:/data
+      - ./config/listed-teams.txt:/config/listed-teams.txt:ro
+    networks: [iptv]             # the network Dispatcharr and Teamarr are on
+    # No "ports:" on purpose: the control API (8787) has no authentication. Dispatcharr reaches it over the network.
+
+  # The NHL changer: the same image, its own container, channel, data directory and team list.
+  # changer-nhl:
+  #   build: .
+  #   container_name: changer-nhl
+  #   restart: unless-stopped
+  #   user: "1000:1000"
+  #   environment:
+  #     SPORT: nhl
+  #     DRY_RUN: "1"
+  #     CHANGER_CHANNEL_ID: ""     # a second Dispatcharr channel, not the NCAAF one
+  #     CHANGER_DISPATCHARR_USER: ${CHANGER_DISPATCHARR_USER}
+  #     CHANGER_DISPATCHARR_PASSWORD: ${CHANGER_DISPATCHARR_PASSWORD}
+  #     CHANGER_DISCORD_WEBHOOK: ${CHANGER_DISCORD_WEBHOOK:-}
+  #     DISPATCHARR_URL: http://dispatcharr:9191
+  #     TEAMARR_URL: http://teamarr:9195
+  #   volumes:
+  #     - ./data/nhl:/data
+  #     - ./config/listed-teams-nhl.txt:/config/listed-teams.txt:ro
+  #   networks: [iptv]
+
+networks:
+  iptv:
+    external: true               # rename to the existing Docker network Dispatcharr and Teamarr share

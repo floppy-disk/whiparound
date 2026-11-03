@@ -1,0 +1,378 @@
+{
+ "name": "National Hockey League",
+ "abbreviation": "NHL",
+ "children": [
+  {
+   "id": "7",
+   "name": "Eastern Conference",
+   "abbreviation": "East",
+   "standings": {
+    "id": "0",
+    "name": "overall",
+    "displayName": "Standings",
+    "entries": [
+     {
+      "team": {
+       "id": "7",
+       "abbreviation": "CAR",
+       "displayName": "Carolina Hurricanes"
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 1.0,
+        "displayValue": "1"
+       },
+       {
+        "name": "pointsFor",
+        "value": 63.0,
+        "displayValue": "63"
+       },
+       {
+        "name": "gamesPlayed",
+        "value": 16.0,
+        "displayValue": "16"
+       },
+       {
+        "name": "points",
+        "value": 26.0,
+        "displayValue": "26"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "1",
+       "abbreviation": "BOS",
+       "displayName": "Boston Bruins"
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 2.0,
+        "displayValue": "2"
+       },
+       {
+        "name": "pointsFor",
+        "value": 55.0,
+        "displayValue": "55"
+       },
+       {
+        "name": "gamesPlayed",
+        "value": 15.0,
+        "displayValue": "15"
+       },
+       {
+        "name": "points",
+        "value": 21.0,
+        "displayValue": "21"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "14",
+       "abbreviation": "OTT",
+       "displayName": "Ottawa Senators"
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 4.0,
+        "displayValue": "4"
+       },
+       {
+        "name": "pointsFor",
+        "value": 52.0,
+        "displayValue": "52"
+       },
+       {
+        "name": "gamesPlayed",
+        "value": 16.0,
+        "displayValue": "16"
+       },
+       {
+        "name": "points",
+        "value": 19.0,
+        "displayValue": "19"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "21",
+       "abbreviation": "TOR",
+       "displayName": "Toronto Maple Leafs"
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 8.0,
+        "displayValue": "8"
+       },
+       {
+        "name": "pointsFor",
+        "value": 60.0,
+        "displayValue": "60"
+       },
+       {
+        "name": "gamesPlayed",
+        "value": 16.0,
+        "displayValue": "16"
+       },
+       {
+        "name": "points",
+        "value": 18.0,
+        "displayValue": "18"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "2",
+       "abbreviation": "BUF",
+       "displayName": "Buffalo Sabres"
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 9.0,
+        "displayValue": "9"
+       },
+       {
+        "name": "pointsFor",
+        "value": 43.0,
+        "displayValue": "43"
+       },
+       {
+        "name": "gamesPlayed",
+        "value": 14.0,
+        "displayValue": "14"
+       },
+       {
+        "name": "points",
+        "value": 17.0,
+        "displayValue": "17"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "29",
+       "abbreviation": "CBJ",
+       "displayName": "Columbus Blue Jackets"
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 16.0,
+        "displayValue": "16"
+       },
+       {
+        "name": "pointsFor",
+        "value": 29.0,
+        "displayValue": "29"
+       },
+       {
+        "name": "gamesPlayed",
+        "value": 12.0,
+        "displayValue": "12"
+       },
+       {
+        "name": "points",
+        "value": 10.0,
+        "displayValue": "10"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "8",
+   "name": "Western Conference",
+   "abbreviation": "West",
+   "standings": {
+    "id": "0",
+    "name": "overall",
+    "displayName": "Standings",
+    "entries": [
+     {
+      "team": {
+       "id": "6",
+       "abbreviation": "EDM",
+       "displayName": "Edmonton Oilers"
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 1.0,
+        "displayValue": "1"
+       },
+       {
+        "name": "pointsFor",
+        "value": 64.0,
+        "displayValue": "64"
+       },
+       {
+        "name": "gamesPlayed",
+        "value": 15.0,
+        "displayValue": "15"
+       },
+       {
+        "name": "points",
+        "value": 24.0,
+        "displayValue": "24"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "30",
+       "abbreviation": "MIN",
+       "displayName": "Minnesota Wild"
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 2.0,
+        "displayValue": "2"
+       },
+       {
+        "name": "pointsFor",
+        "value": 52.0,
+        "displayValue": "52"
+       },
+       {
+        "name": "gamesPlayed",
+        "value": 16.0,
+        "displayValue": "16"
+       },
+       {
+        "name": "points",
+        "value": 23.0,
+        "displayValue": "23"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "129764",
+       "abbreviation": "UTA",
+       "displayName": "Utah Mammoth"
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 4.0,
+        "displayValue": "4"
+       },
+       {
+        "name": "pointsFor",
+        "value": 54.0,
+        "displayValue": "54"
+       },
+       {
+        "name": "gamesPlayed",
+        "value": 15.0,
+        "displayValue": "15"
+       },
+       {
+        "name": "points",
+        "value": 18.0,
+        "displayValue": "18"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "19",
+       "abbreviation": "STL",
+       "displayName": "St. Louis Blues"
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 8.0,
+        "displayValue": "8"
+       },
+       {
+        "name": "pointsFor",
+        "value": 44.0,
+        "displayValue": "44"
+       },
+       {
+        "name": "gamesPlayed",
+        "value": 14.0,
+        "displayValue": "14"
+       },
+       {
+        "name": "points",
+        "value": 15.0,
+        "displayValue": "15"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "27",
+       "abbreviation": "NSH",
+       "displayName": "Nashville Predators"
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 9.0,
+        "displayValue": "9"
+       },
+       {
+        "name": "pointsFor",
+        "value": 42.0,
+        "displayValue": "42"
+       },
+       {
+        "name": "gamesPlayed",
+        "value": 14.0,
+        "displayValue": "14"
+       },
+       {
+        "name": "points",
+        "value": 15.0,
+        "displayValue": "15"
+       }
+      ]
+     },
+     {
+      "team": {
+       "id": "22",
+       "abbreviation": "VAN",
+       "displayName": "Vancouver Canucks"
+      },
+      "stats": [
+       {
+        "name": "playoffSeed",
+        "value": 16.0,
+        "displayValue": "16"
+       },
+       {
+        "name": "pointsFor",
+        "value": 47.0,
+        "displayValue": "47"
+       },
+       {
+        "name": "gamesPlayed",
+        "value": 16.0,
+        "displayValue": "16"
+       },
+       {
+        "name": "points",
+        "value": 7.0,
+        "displayValue": "7"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,109 @@
+{
+  "leagues": [{"id": "23", "name": "NCAA - Football"}],
+  "groups": ["80"],
+  "season": {"type": 2, "year": 2026},
+  "week": {"number": 7},
+  "events": [
+    {
+      "id": "401858488",
+      "uid": "s:20~l:23~e:401858488",
+      "date": "2026-10-17T16:00Z",
+      "name": "Indiana Hoosiers at Ohio State Buckeyes",
+      "shortName": "IU @ OSU",
+      "status": {
+        "clock": 853.0,
+        "displayClock": "14:13",
+        "period": 3,
+        "type": {"id": "2", "name": "STATUS_IN_PROGRESS", "state": "in", "completed": false,
+                 "detail": "14:13 - 3rd Quarter", "shortDetail": "14:13 - 3rd"}
+      },
+      "competitions": [{
+        "id": "401858488",
+        "neutralSite": false,
+        "conferenceCompetition": true,
+        "broadcasts": [{"market": "national", "names": ["Fox"]}],
+        "competitors": [
+          {"id": "194", "homeAway": "home", "score": "21",
+           "team": {"id": "194", "abbreviation": "OSU", "displayName": "Ohio State Buckeyes"},
+           "curatedRank": {"current": 4},
+           "records": [{"type": "total", "summary": "6-0"}]},
+          {"id": "84", "homeAway": "away", "score": "17",
+           "team": {"id": "84", "abbreviation": "IU", "displayName": "Indiana Hoosiers"},
+           "curatedRank": {"current": 5},
+           "records": [{"type": "total", "summary": "6-0"}]}
+        ],
+        "situation": {
+          "down": 2, "distance": 7, "yardLine": 45, "downDistanceText": "2nd & 7 at OSU 45",
+          "possession": "84", "isRedZone": false, "homeTimeouts": 3, "awayTimeouts": 3,
+          "lastPlay": {
+            "id": "4018584881230",
+            "type": {"id": "5", "text": "Rush"},
+            "text": "Run for 4 yards",
+            "probability": {"tiePercentage": 0.0, "homeWinPercentage": 0.6109, "awayWinPercentage": 0.3891,
+                            "secondsLeft": 1753}
+          }
+        }
+      }]
+    },
+    {
+      "id": "401856720",
+      "date": "2026-10-17T16:00Z",
+      "name": "LSU Tigers at Mississippi State Bulldogs",
+      "shortName": "LSU @ MSST",
+      "status": {
+        "clock": 0.0, "displayClock": "0:00", "period": 2,
+        "type": {"id": "23", "name": "STATUS_HALFTIME", "state": "in", "completed": false,
+                 "detail": "Halftime", "shortDetail": "Halftime"}
+      },
+      "competitions": [{
+        "id": "401856720",
+        "competitors": [
+          {"id": "344", "homeAway": "home", "score": "10",
+           "team": {"id": "344", "abbreviation": "MSST"}, "curatedRank": {"current": 99}},
+          {"id": "99", "homeAway": "away", "score": "13",
+           "team": {"id": "99", "abbreviation": "LSU"}, "curatedRank": {"current": 11}}
+        ]
+      }]
+    },
+    {
+      "id": "401856724",
+      "date": "2026-10-17T19:30Z",
+      "name": "Texas Longhorns at Florida Gators",
+      "shortName": "TEX @ FLA",
+      "status": {
+        "clock": 0.0, "displayClock": "0:00", "period": 0,
+        "type": {"id": "1", "name": "STATUS_SCHEDULED", "state": "pre", "completed": false,
+                 "detail": "Sat, October 17th at 3:30 PM EDT", "shortDetail": "10/17 - 3:30 PM EDT"}
+      },
+      "competitions": [{
+        "id": "401856724",
+        "competitors": [
+          {"id": "57", "homeAway": "home", "score": "0", "team": {"id": "57", "abbreviation": "FLA"},
+           "curatedRank": {"current": 99}},
+          {"id": "251", "homeAway": "away", "score": "0", "team": {"id": "251", "abbreviation": "TEX"},
+           "curatedRank": {"current": 7}}
+        ]
+      }]
+    },
+    {
+      "id": "401856700",
+      "date": "2026-10-17T16:00Z",
+      "name": "Pittsburgh Panthers at Syracuse Orange",
+      "shortName": "PITT @ SYR",
+      "status": {
+        "clock": 0.0, "displayClock": "0:00", "period": 4,
+        "type": {"id": "3", "name": "STATUS_FINAL", "state": "post", "completed": true,
+                 "detail": "Final", "shortDetail": "Final"}
+      },
+      "competitions": [{
+        "id": "401856700",
+        "competitors": [
+          {"id": "183", "homeAway": "home", "score": "24", "team": {"id": "183", "abbreviation": "SYR"},
+           "curatedRank": {"current": 99}, "winner": false},
+          {"id": "221", "homeAway": "away", "score": "31", "team": {"id": "221", "abbreviation": "PITT"},
+           "curatedRank": {"current": 99}, "winner": true}
+        ]
+      }]
+    }
+  ]
+}

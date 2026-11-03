@@ -1,0 +1,8 @@
+# Listed NHL teams, one per line. Copy this file to config/listed-teams-nhl.txt and edit it.
+# Each line must be the team name EXACTLY as Teamarr writes it in a channel's home_team / away_team
+# ("Toronto Maple Leafs", not "Toronto"). Order = priority when two listed teams play at once.
+# Blank lines and lines starting with # are ignored. Re-read at every docket refresh (10 min).
+# These three are examples, not recommendations.
+Toronto Maple Leafs
+Colorado Avalanche
+Vegas Golden Knights
